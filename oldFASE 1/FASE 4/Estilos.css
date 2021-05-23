@@ -1,0 +1,28 @@
+body{
+    background-color: whitesmoke;
+}
+nav{
+    background-color: gray;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+li{
+    padding: 15px;
+}
+li:hover{
+    background-color: black;
+    color: white;
+}
+.Contenedor{
+    display: flex ;
+}
+section{
+    flex: 75% ;
+    padding: 5px;
+}
+aside{
+    flex: 25% ;
+}
